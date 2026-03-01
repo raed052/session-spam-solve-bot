@@ -9,15 +9,7 @@ primary_region = 'fra'
 [build]
 
 [processes]
-  app = 'python3 app.py'
-
-[http_service]
-  internal_port = 8080
-  force_https = true
-  auto_stop_machines = 'stop'
-  auto_start_machines = true
-  min_machines_running = 0
-  processes = ['app']
+app = "python3 app.py"
 
 [[vm]]
   memory = '2gb'
