@@ -404,3 +404,4 @@ if __name__ == "__main__":
         worker_task = bot.loop.create_task(worker())
         logger.info("البوت جاهز والـ worker شغّال. المجلد: %s", os.path.abspath(SESSIONS_DIR))
         bot.run_until_disconnected()
+
